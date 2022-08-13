@@ -1,0 +1,49 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Learn Python: The Complete Python Course",
+      "author": "Avinash jain",
+      "rating": 4.4,
+      "star-rating": "images/rating-4.4.png",
+      "image": "images/course-1.png",
+      "price": "E£499.99"
+    },
+    {
+      "id": 2,
+      "title": "Learning Python for Data Analysis and Visualization",
+      "author": "Jose Protialla",
+      "rating": 4.4,
+      "star-rating": "images/rating-4.4.png",
+      "image": "images/course-2.png",
+      "price": "E£299.99"
+    },
+    {
+      "id": 3,
+      "title": "Python for Beginners - Learn Programming from scratch",
+      "author": "Edwin Diza",
+      "rating": 4.4,
+      "star-rating": "images/rating-4.4.png",
+      "image": "images/course-3.png",
+      "price": "E£499.99"
+    },
+    {
+      "id": 4,
+      "title": "Learn Python: Python for Beginners",
+      "author": "Abrar Hussain",
+      "rating": 4.1,
+      "star-rating": "images/rating-4.1.png",
+      "image": "images/course-4.png",
+      "price": "E£399.99"
+    },
+    {
+      "id": 5,
+      "title": "Python Beyond the Basics - Object-Oriented Programming",
+      "author": "Infinite Skills",
+      "rating": 4.4,
+      "star-rating": "images/rating-4.4.png",
+      "image": "images/course-5.png",
+      "price": "E£299.99"
+    }
+  ]
+}
