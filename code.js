@@ -2,12 +2,13 @@ let n = 0;
 let courses_data = [];
 const search_btn = document.querySelector(".search_btn");
 const search_txt = document.querySelector(".search_txt");
-fetch("http://localhost:3000/courses")
+fetch("https://my-json-server.typicode.com/HusseinAuf/bld_project-1_phase-2/courses")
     .then(res => res.json())
     .then(json => {
         json.map(data => {
             console.log(n);
             courses_data[n++] = data;
+            console.log(data);
         })
         search_filter();
     })
