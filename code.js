@@ -6,9 +6,7 @@ fetch("https://my-json-server.typicode.com/HusseinAuf/bld_project-1_phase-2/cour
     .then(res => res.json())
     .then(json => {
         json.map(data => {
-            console.log(n);
             courses_data[n++] = data;
-            console.log(data);
         })
         search_filter();
     })
